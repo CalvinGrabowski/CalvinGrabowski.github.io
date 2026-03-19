@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvin Grabowski | AI & Systems Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); border-color: #38bdf8; }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+    <div class="max-w-4xl mx-auto">
+        <header class="mb-16">
+            <h1 class="text-5xl font-extrabold mb-2">Calvin <span class="gradient-text">Grabowski</span></h1>
+            <p class="text-xl text-slate-400 mb-6">Applied AI Scholar @ Oregon State (AMP) | Systems Reliability Engineer</p>
+            <div class="flex gap-4">
+                <a href="https://github.com/calvingrabowski" class="text-sky-400 hover:underline">GitHub</a>
+                <a href="https://linkedin.com/in/calvin-grabowski" class="text-sky-400 hover:underline">LinkedIn</a>
+                <a href="mailto:calvingrabowski@gmail.com" class="text-sky-400 hover:underline">Email</a>
+            </div>
+        </header>
+
+        <section class="mb-20">
+            <h2 class="text-2xl font-bold mb-4 border-b border-slate-700 pb-2">Philosophy</h2>
+            <p class="text-lg text-slate-300 leading-relaxed">
+                I specialize in building **unbreakable foundations**. My work sits at the intersection of high-performance systems engineering and cost-optimized AI. Whether I'm implementing process management in C or architecting hybrid-edge vision pipelines, I focus on <strong>reliability, scalability, and measurable cost-efficiency.</strong>
+            </p>
+        </section>
+
+        <section class="mb-20">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <span class="text-sky-400">01.</span> Featured: EdgeGuard Hybrid Intelligence
+            </h2>
+            <div class="card p-6 md:p-8">
+                <div class="aspect-video mb-6 rounded-lg overflow-hidden bg-black">
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="EdgeGuard Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="grid md:grid-cols-3 gap-4 mb-6">
+                    <div class="text-center p-4 bg-slate-900 rounded-lg">
+                        <p class="text-3xl font-bold text-sky-400">98%</p>
+                        <p class="text-xs text-slate-400 uppercase tracking-widest">Data Reduction</p>
+                    </div>
+                    <div class="text-center p-4 bg-slate-900 rounded-lg">
+                        <p class="text-3xl font-bold text-sky-400">$0.059/s</p>
+                        <p class="text-xs text-slate-400 uppercase tracking-widest">Inference Savings</p>
+                    </div>
+                    <div class="text-center p-4 bg-slate-900 rounded-lg">
+                        <p class="text-3xl font-bold text-sky-400">AWS</p>
+                        <p class="text-xs text-slate-400 uppercase tracking-widest">Cloud-Native</p>
+                    </div>
+                </div>
+                <p class="text-slate-300 mb-4">
+                    Architected a computer vision pipeline that utilizes local OpenCV motion filtering to reduce cloud ingestion. Integrated AWS Rekognition and S3 via a FastAPI backend to deliver enterprise-grade intelligence at a fraction of the cost.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Python</span>
+                    <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">FastAPI</span>
+                    <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">OpenCV</span>
+                    <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">AWS Lambda</span>
+                </div>
+                <a href="#" class="inline-block bg-sky-600 hover:bg-sky-500 text-white font-bold py-2 px-6 rounded-lg transition">Read 16-Page Design Doc</a>
+            </div>
+        </section>
+
+        <section class="mb-20">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <span class="text-sky-400">02.</span> Production & Systems
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="card p-6">
+                    <h3 class="text-xl font-bold mb-2">Learn Evenki! (Android)</h3>
+                    <p class="text-sm text-slate-400 mb-4 uppercase">Play Store Published</p>
+                    <p class="text-slate-300 mb-4 text-sm">Shipped a native Android app with an offline-first Room DB data layer. Built during a 1-week high-intensity sprint for the Evenki preservation community.</p>
+                    <a href="https://play.google.com/store/apps/details?id=org.lightsys.learnevenki" class="text-sky-400 text-sm hover:underline">View on Play Store →</a>
+                </div>
+                <div class="card p-6">
+                    <h3 class="text-xl font-bold mb-2">Small Shell (C/Linux)</h3>
+                    <p class="text-sm text-slate-400 mb-4 uppercase">Systems Programming</p>
+                    <p class="text-slate-300 mb-4 text-sm">Engineered a custom shell in C with robust process management (fork, exec, waitpid) and signal handling (SIGINT/SIGTSTP) to ensure 0 zombie processes.</p>
+                    <a href="https://github.com/calvingrabowski" class="text-sky-400 text-sm hover:underline">View Source Code →</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center text-slate-500 py-10 border-t border-slate-800">
+            <p>195-mile relay runner | 65-mile ultra-marathoner | 4:29 mile</p>
+            <p class="mt-2 text-xs uppercase tracking-tighter italic">Endurance-tested engineering.</p>
+        </footer>
+    </div>
+</body>
+</html>
